@@ -1,6 +1,11 @@
 $(document).ready(function() {
   $("form#inputQs").submit(function(event) {
     const coat = $("input:radio[name=coat]:checked").val();
+    const 
+
+
+
+
     
     //if (coat === coatVal1) {
     //  result = "Python"
