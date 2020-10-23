@@ -16,8 +16,14 @@ You will need a web browser capable of running HTML5.
 3) Right click the .zip file and extract(unzip) it's contents.
 4) Open the unzipped folder and launch the file named "index.html".  If the file does not automatically launch using your default web browser, you can right click on the file and choose which application you would like to open the index.html file with.
 
-**Option 2** (via git consol/terminal)
-1) 
+**Option 2** (via git console/terminal)
+1) Open your Git enabled terminal/console and navigate to a directory that you wish to download this project to.
+2) Type the following line of code into your terminal/console to automatically download the project to your current direcory and hit return/enter
+
+<code>git clone https://github.com/RMGit-it/programming_language_suggester</code>
+3) Once the project has finished downloading, navigate to the root directory of the project in the terminal/console, and type <code>code .</code> and then hit return/enter.
+
+The project should automatically launch using your default application(s).
 
 ## **Usage / Examples**
 
