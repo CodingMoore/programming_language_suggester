@@ -5,7 +5,7 @@ $(document).ready(function() {
     if (coat ===- coatVal1) {
       result = "Python"
     }
-    .else {
+    else {
       result = "Java Script"
     }
     //const result = ...
