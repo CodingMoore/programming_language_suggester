@@ -18,12 +18,34 @@ body {
   background-color:;
 }
 .qBox {
-
-  
-  padding-top: 20pt;
+  box-sizing: border-box;
+  margin-top: -2px;
+  padding: 20pt;
   border-style: solid;
-  border: black;
+  border-color: black;
+  border-width: 2px;
 }
 h5 {
   font-weight: bold;
+}
+.btn {
+  background-color: blanchedalmond;
+  border-color: black;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+.headerBox {
+  box-sizing: border-box;
+  font-size: 40pt;
+  font-weight: bold;
+  font-family: helvetica;
+}
+.ppBox {
+  box-sizing: border-box;
+  font-size: 14pt;
+  font-style: italic;
+  
+}
+.instBox {
+  box-sizing: border-box;
 }
