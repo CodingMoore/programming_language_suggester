@@ -12,17 +12,19 @@ $(document).ready(function() {
     const loveInt = parseInt(love);
     const answerSum = (coatInt + tvShowInt + prisonInt + petInt + loveInt);
     alert(answerSum);
-    //alert(coatInt);
-    //alert(tvShowInt);
-    //alert(prisonInt);
-    //alert(petInt);
-    //alert(loveInt);
-    //alert(coatInt + tvShowInt + prisonInt + petInt + loveInt);
     
-
+    if (answerSum >= 5 && answerSum <= 8) {
+      $(".outputPython").show();
+    } else if (answerSum >= 9 && answerSum <= 12) {
+      $(".outputJavaScript").show();
+    } else if (answerSum >= 13 && answerSum <=16) {
+      $(".outputShakespeare").show();
+    } else if (answerSum >= 17 && answerSum<= 20) {
+      $(".outputDontBother").show();
+    } else {
+      alert("missing a button")
+    }
     
-    $("#outputResult").text(result);
-    $(".outputText").show();
     event.preventDefault();
   });
 });
