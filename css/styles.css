@@ -39,13 +39,19 @@ h5 {
   font-size: 40pt;
   font-weight: bold;
   font-family: helvetica;
+  margin-top: 20pt;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  margin-bottom: 0pt;
 }
 .ppBox {
   box-sizing: border-box;
   font-size: 14pt;
   font-style: italic;
-  
+  margin: 20pt;
 }
 .instBox {
   box-sizing: border-box;
+  margin: 20pt;
+  font-size: 22pt;
 }
