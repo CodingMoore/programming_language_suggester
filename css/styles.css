@@ -10,3 +10,9 @@
 .outputDontBother {
   display: none;
 }
+body {
+  background-color: blue;
+}
+.container {
+  background-color: chartreuse;
+}
