@@ -13,14 +13,18 @@
 .codeText {
   font-weight: bold;
   font-family: courier;
-  color: rgb(119, 58, 0);
+  color: rgb(184, 0, 0);
 }
 body {
-  background-color: rgb(160, 177, 153);
+  background-color: rgb(79, 172, 172);
   font-family: sans-serif;
 }
 .container {
-  background-color:;
+  background-color: rgb(160, 177, 153);
+  padding-top: 10pt;
+  padding-bottom: 42pt;
+  padding-left: 40pt;
+  padding-right: 40pt;                                  
 }
 .qHeading {
   font-weight: bold;
@@ -37,6 +41,10 @@ body {
 }
 #quizOutput {
   font-size: 14pt;
+  border-style: dashed;
+  border-width: 3px;
+  background-color: blanchedalmond;
+  padding: 30px;
 }
 .btn {
   background-color: blanchedalmond;
@@ -47,18 +55,23 @@ body {
 .headerBox {
   box-sizing: border-box;
   font-size: 40pt;
+  text-align: center;
+  font-family: sans-serif;
   font-weight: bold;
-  font-family: helvetica;
   margin-top: 20pt;
   margin-left: 20pt;
   margin-right: 20pt;
-  margin-bottom: 0pt;
+  margin-bottom: 10pt;
+  background-color: rgb(219, 76, 76);
+  padding: 20pt;
+  border-radius: 20pt;
 }
 .ppBox {
   box-sizing: border-box;
   font-size: 14pt;
   font-style: italic;
   margin: 20pt;
+  
 }
 .instBox {
   box-sizing: border-box;

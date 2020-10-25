@@ -17,7 +17,7 @@ $(document).ready(function() {
       $(".outputPython").show();
     } else if (answerSum >= 9 && answerSum <= 12) {
       $(".outputJavaScript").show();
-    } else if (answerSum >= 13 && answerSum <=16) {
+    } else if (answerSum >= 13 && answerSum <= 16) {
       $(".outputShakespeare").show();
       $(".codeText").show();
     } else if (answerSum >= 17 && answerSum <= 20) {
