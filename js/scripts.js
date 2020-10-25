@@ -14,13 +14,17 @@ $(document).ready(function() {
 
     $("#quizOutput div").hide();
     if (answerSum >= 5 && answerSum <= 8) {
+      $("#quizOutput").show();
       $(".outputPython").show();
     } else if (answerSum >= 9 && answerSum <= 12) {
+      $("#quizOutput").show();
       $(".outputJavaScript").show();
     } else if (answerSum >= 13 && answerSum <= 16) {
+      $("#quizOutput").show();
       $(".outputShakespeare").show();
       $(".codeText").show();
     } else if (answerSum >= 17 && answerSum <= 20) {
+      $("#quizOutput").show();
       $(".outputDontBother").show();
     } else {
       alert("You seem to have left one or more of the questions un-answered.  Please answer all questions before clicking on the submit button")
