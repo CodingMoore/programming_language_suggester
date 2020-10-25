@@ -12,11 +12,7 @@ $(document).ready(function() {
     const loveInt = parseInt(love);
     const answerSum = (coatInt + tvShowInt + prisonInt + petInt + loveInt);
 
-
-    $(".outputPython").hide();
-    $(".outputJavaScrit").hide();
-    $(".outputShakespeare").hide();
-    $(".outputDontBother").hide();
+    $("#quizOutput div").hide();
     if (answerSum >= 5 && answerSum <= 8) {
       $(".outputPython").show();
     } else if (answerSum >= 9 && answerSum <= 12) {
