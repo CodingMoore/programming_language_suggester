@@ -10,12 +10,21 @@
 .outputDontBother {
   display: none;
 }
+.codeText {
+  font-weight: bold;
+  font-family: courier;
+  color: rgb(119, 58, 0);
+}
 body {
   background-color: rgb(160, 177, 153);
   font-family: sans-serif;
 }
 .container {
   background-color:;
+}
+.qHeading {
+  font-weight: bold;
+  font-size: 18pt;
 }
 .qBox {
   box-sizing: border-box;
@@ -24,9 +33,10 @@ body {
   border-style: solid;
   border-color: black;
   border-width: 2px;
+  font-size: 14pt;
 }
-h5 {
-  font-weight: bold;
+#quizOutput {
+  font-size: 14pt;
 }
 .btn {
   background-color: blanchedalmond;
@@ -53,5 +63,6 @@ h5 {
 .instBox {
   box-sizing: border-box;
   margin: 20pt;
+  margin-bottom: 80pt;
   font-size: 22pt;
 }

@@ -19,7 +19,8 @@ $(document).ready(function() {
       $(".outputJavaScript").show();
     } else if (answerSum >= 13 && answerSum <=16) {
       $(".outputShakespeare").show();
-    } else if (answerSum >= 17 && answerSum<= 20) {
+      $(".codeText").show();
+    } else if (answerSum >= 17 && answerSum <= 20) {
       $(".outputDontBother").show();
     } else {
       alert("You seem to have left one or more of the questions un-answered.  Please answer all questions before clicking on the submit button")

@@ -9,12 +9,12 @@
 </head>
 <body>
   <div class="container">
-    <p class="headerBox">The totally 100% completely accurate "Programming Language Suggester" quiz!</p>
+    <p class="headerBox">The totally scientific 100% completely accurate "Programming Language Suggester" quiz!</p>
     <span class="ppBox">(Patent Pending)</span>
-    <p class="instBox">Answer each of the following questions, selecting the answer that most closely reflects your personality.  Once completed, click on the "Submit" button at the bottom of the page to get your results.</p>
+    <p class="instBox"><strong>Instructions:</strong> Answer each of the following questions, selecting the answer that most closely reflects your personality.  Once completed, click on the "Submit" button at the bottom of the page to get your results.</p>
     <form id="inputQs">
       <div class="qBox">
-        <h5>What type of coat do you prefer?</h5>
+        <p class="qHeading">What type of coat do you prefer?</p>
         <div class="radio">
           <label>
             <input type="radio" name="coat" value="1">
@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="qBox">
-        <h5>What type of tv show do you watch?</h5>
+        <p class="qHeading">What type of tv show do you watch?</p>
         <div class="radio">
           <label>
             <input type="radio" name="tvShow" value="1">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="qBox">
-        <h5>How would you get out of prison?</h5>
+        <p class="qHeading">How would you get out of prison?</p>
         <div class="radio">
           <label>
             <input type="radio" name="prison" value="1">
@@ -78,13 +78,13 @@
         <div class="radio">
           <label>
             <input type="radio" name="prison" value="2">
-            I would escape through the ductwork using a screwdriver made from aluminum toothpaste tubes.  I could forge the screwdriver on one of the kitchen range burners.  I'm going to need to get a hammer from the woodshop...
+            I would escape through the ductwork using a screwdriver made from aluminum toothpaste tubes.  I could forge the screwdriver on one of the kitchen range burners.  I'm going to need to fashion a hammer out of something...
           </label>
         </div>
         <div class="radio">
           <label>
             <input type="radio" name="prison" value="3">
-            I would use my superior acting skills to fool the guards into taking me to the hospital.  Once there I would disguise myself as a nurse and waltz out the staff enterance.  "*cough* Ask for me tomorrow, and you shall find me a grave man."
+            I would use my superior acting skills to fool the guards into taking me to the hospital.  Once there I would disguise myself as a nurse and waltz out of the hospital's staff enterance.  "*cough* Ask for me tomorrow, and you shall find me a grave man."
           </label>
         </div>
         <div class="radio">
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="qBox">  
-        <h5>If you could have any pet, what would it be?</h5>
+        <p class="qHeading">If you could have any pet, what would it be?</p>
         <div class="radio">
           <label>
             <input type="radio" name="pet" value="1">
@@ -122,7 +122,7 @@
         </div>
       </div>
       <div class="qBox">  
-        <h5>Your idea of an ideal romantic partner</h5>
+        <p class="qHeading">Your idea of an ideal romantic partner</p>
         <div class="radio">
           <label>
             <input type="radio" name="love" value="1">
@@ -158,8 +158,8 @@
         <p>Why be boring? <strong>"JavaScript</strong> will make your life exciting -- or at least it will make your webpages and mobile apps more exciting.  As the Word Wide Web has its tendrils into every part of society, JavaScript has its tendrils into the Web.  Complicated? Can be, but what's a little complication in the face of beautiful dynamism. Hey, that describes you AND your creations!</p>
       </div>
       <div class="outputShakespeare">
-        <p>Who can save us from a life of reading dreary, sleep inducing code?  Shakespeare, thats who!  <strong>"Shakespeare Programming Language"</strong> is your language solution, and yes, it's real! "SPL" lets you reflect the drama of your code in the drama of your coding language.  Why write "<code>print ("Hellow World");</code>"" when you can add a boat load of dramatic zaz with...</p>
-        <code>
+        <p>Who can save us from a life of reading dreary, sleep inducing code?  Shakespeare, thats who!  <strong>"Shakespeare Programming Language"</strong> is your language solution, and yes, it's real! "SPL" lets you reflect the drama of your code in the drama of your coding language.  Why write "<span class="codeText">print ("Hellow World");</span>" when you can add a boat-load of dramatic zaz with...</p>
+        <div class="codeText">
           <p>Romeo, a young man with a remarkable patience.
           Juliet, a likewise young woman of remarkable grace.
           Ophelia, a remarkable woman much in dispute with Hamlet.
@@ -179,7 +179,7 @@
           between a big mighty proud kingdom and a horse. Speak your mind.</p>
           <p>Speak your mind!</p>
           <p>[Exit Romeo]</p>
-        </code>
+        </div>
         <p>If you think thats verbose, its only about <strong>ONE THIRD</strong> of the code you need to output "Hello World"! I'm sure its all worth it though.  Yep, totally worth it...</p>
         <p>(example code copied from <a href="http://shakespearelang.sourceforge.net/report/shakespeare/shakespeare.html#sec:hello">shakespearelang.sourceforge.net</a>)</p>
       </div>
