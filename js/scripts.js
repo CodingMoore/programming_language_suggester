@@ -24,6 +24,7 @@ $(document).ready(function() {
     } else {
       alert("You seem to have left one or more of the questions un-answered.  Please answer all questions before clicking on the submit button")
     }
+    $(document).scrollTop($(document).height());
     event.preventDefault();
   });
 });
